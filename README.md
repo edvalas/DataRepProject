@@ -20,7 +20,7 @@ Ordered List:
 3. Orange
 
 Here is code:
-```
+```js
 var i;
 for(i = 0; i < 10; i++){
 }
