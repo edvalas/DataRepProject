@@ -13,7 +13,7 @@ The dataset is in PDF format and is available
 This is a dataset for the number drivers in all counties in Ireland and the amount of penalty
 points the drivers have. This PDF is based on the total figures across all of Ireland on *31st of January 2015* and the number of penalty points issued changes every day.
 
-There are 28 rows of all counties in Ireland (eg. ** Galway**) plus foreign licence holders and the "unknown" row.
+There are 28 rows of all counties in Ireland (eg. **Galway**) plus foreign licence holders and the "unknown" row.
 
 There are 13 columns across 1 - 12 being (**penalty points** 1 to 12) and total number of penalty points in the last column.
 
