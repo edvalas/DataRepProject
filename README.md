@@ -1,4 +1,3 @@
-# DataRepProject
 Data Representation and Querying Project 2015
 # Penalty Points Issued in Ireland
 ### 19th October 2015
