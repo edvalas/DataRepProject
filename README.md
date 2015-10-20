@@ -9,9 +9,14 @@ This is a project to design and document an API for a dataset. The dataset is in
 
 ##The dataset
 The dataset is in PDF format and is available 
-[here](http://www.rsa.ie/Documents/PenaltyPointsStats/2015/Jan/Analysis%20of%20Penalty%20Points%20(Current)%20Issued%20-%20(Cumulative)%20January%20%202015.pdf). 
+[here](http://www.rsa.ie/Documents/PenaltyPointsStats/2015/Jan/Analysis%20of%20Penalty%20Points%20(Current)%20Issued%20-%20(Cumulative)%20January%20%202015.pdf).
+
 This is a dataset for the number drivers in all counties in Ireland and the amount of penalty
-points the drivers have. There are 28 rows of all counties in Ireland plus foreign licence holders and the "unknown" row. There are 13 columns across 1 - 12 being (penalty points 1 to 12) and total number of penalty points in the last column.
+points the drivers have.
+
+There are 28 rows of all counties in Ireland (eg. ** Galway**) plus foreign licence holders and the "unknown" row.
+
+There are 13 columns across 1 - 12 being (**penalty points** 1 to 12) and total number of penalty points in the last column.
 
 another paragraph for text. *this is italic*
 
