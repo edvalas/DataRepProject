@@ -1,18 +1,18 @@
 # DataRepProject
 Data Representation and Querying Project 2015
-# Dataset Name
-## 19th October 2015
+# Penalty Points Issued in Ireland
+### 19th October 2015
 ### Ed Lasauskas
 
 ##Overview
-This is a project to design and document an API for a dataset. The dataset is in PDF format and is available at [RSA.ie](http://www.rsa.ie/)
+This is a project to design and document an API for a dataset. The dataset is in PDF format and was taken from [RSA.ie](http://www.rsa.ie/)
 
 ##The dataset
 The dataset is in PDF format and is available 
 [here](http://www.rsa.ie/Documents/PenaltyPointsStats/2015/Jan/Analysis%20of%20Penalty%20Points%20(Current)%20Issued%20-%20(Cumulative)%20January%20%202015.pdf).
 
 This is a dataset for the number drivers in all counties in Ireland and the amount of penalty
-points the drivers have. This PDF is based on the total figures across all of Ireland on 31st of January 2015 and the number of penalty points issued changes every day.
+points the drivers have. This PDF is based on the total figures across all of Ireland on *31st of January 2015* and the number of penalty points issued changes every day.
 
 There are 28 rows of all counties in Ireland (eg. ** Galway**) plus foreign licence holders and the "unknown" row.
 
