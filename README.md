@@ -1,5 +1,5 @@
 # DataRepProject
-Data Representation and Querying project
+Data Representation and Querying Project 2015
 # Dataset Name
 ## 19th October 2015
 ### Ed Lasauskas
