@@ -4,7 +4,7 @@ Data Representation and Querying Project 2015
 ### Ed Lasauskas
 
 ##Overview
-This is a project to design and document an API for a dataset. The dataset is in PDF format and was taken from [RSA.ie](http://www.rsa.ie/)
+This is a project to design and document an API for a dataset. The dataset was taken from [RSA.ie](http://www.rsa.ie/)
 
 ##The dataset
 The dataset is in PDF format and is available 
