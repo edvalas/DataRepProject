@@ -5,7 +5,8 @@ Data Representation and Querying Project 2015
 ### Ed Lasauskas
 
 This is a project to design and document an API for a dataset. The dataset is in PDF format and is available 
-[here](http://www.rsa.ie/Documents/PenaltyPointsStats/2015/Jan/Analysis%20of%20Penalty%20Points%20(Current)%20Issued%20-%20(Cumulative)%20January%20%202015.pdf). This is a dataset for the number of penalty points issued.
+[here](http://www.rsa.ie/Documents/PenaltyPointsStats/2015/Jan/Analysis%20of%20Penalty%20Points%20(Current)%20Issued%20-%20(Cumulative)%20January%20%202015.pdf). This is a dataset for the drivers in all countries in Ireland and the amount of penalty
+points they have.
 
 another paragraph for text. *this is italic*
 
