@@ -22,21 +22,11 @@ There are 13 columns across 1 - 12 being (**penalty points** 1 to 12) and total 
 ## Get
 
 There are a few variations of the get query and how much detail or specification you want in the data returned from the query.
+
 For Example
-url: http://rsa.ie
+url: *http://rsa.ie/documents/penaltypointsstats/(Year)* , you can replace (Year) with a value for the year to show data for that given year.
 
-another paragraph for text. *this is italic*
 
-lets have a list
-- Apples
-- Banana
-- Orange
-
-Ordered List:
-
-1. Apples
-2. Banana
-3. Orange
 
 Here is code:
 ```js
