@@ -21,6 +21,8 @@ There are 13 columns across 1 - 12 being (**penalty points** 1 to 12) and total 
 
 ## Get
 
+###List of total Penalty points issued by Year.
+
 There are a few variations of the get query and how much detail or specification you want in the data returned from the query.
 
 For Example
