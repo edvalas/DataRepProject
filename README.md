@@ -21,9 +21,9 @@ There are 13 columns across 1 - 12 being (**penalty points** 1 to 12) and total 
 
 ## Get
 
-###List of total Penalty points issued by Year.
-
 There are a few variations of the get query and how much detail or specification you want in the data returned from the query.
+
+###List of total Penalty points issued by Year.
 
 For Example
 url: *https://rsa.ie/documents/penaltypointsstats/(Year)* , you can replace (Year) with a value for the year to show data for that given year.
@@ -42,4 +42,27 @@ In code example:
 
 ```json
 [{"Year": 2015, "Category(1-12)": 3, "Total points": 100, ....}]
+```
+
+###List of total Penalty points issued by Month.
+
+For Example
+url: *https://rsa.ie/documents/penaltypointsstats/(Year)/(Month)* , you can replace (Year) and (Month) with a value for the year and month to show data for that given year and month.
+
+The Url: https://rsa.ie/documents/penaltypointsstats/2015/January will return the total data of issued penalty points for the month of January of  2015.
+
+The data is returned in JSON and for the year will be displayed with the following properties:
+
+**- Year of the Data**
+
+**- Month of the Year for the data**
+
+**- Category of No. of points (1-12)**
+
+**- Total points for a given Category**
+
+In code example:
+
+```json
+[{"Year": 2015, "Month": Jan "Category(1-12)": 3, "Total points": 100, ....}]
 ```
