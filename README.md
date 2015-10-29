@@ -17,6 +17,14 @@ There are 28 rows of all counties in Ireland (eg. **Galway**) plus foreign licen
 
 There are 13 columns across 1 - 12 being (**penalty points** 1 to 12) and total number of penalty points in the last column.
 
+# Queries
+
+## Get
+
+There are a few variations of the get query and how much detail or specification you want in the data returned from the query.
+For Example
+url: http://rsa.ie
+
 another paragraph for text. *this is italic*
 
 lets have a list
