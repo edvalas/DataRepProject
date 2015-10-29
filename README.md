@@ -64,5 +64,5 @@ The data is returned in JSON and for the year will be displayed with the followi
 In code example:
 
 ```json
-[{"Year": 2015, "Month": Jan, "Category(1-12)": 3, "Total points": 100, ....}]
+[{"Year": 2015, "Month": January, "Category(1-12)": 3, "Total points": 100, ....}]
 ```
