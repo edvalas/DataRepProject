@@ -29,8 +29,11 @@ url: *https://rsa.ie/documents/penaltypointsstats/(Year)* , you can replace (Yea
 The Url: https://rsa.ie/documents/penaltypointsstats/2015 will return the total data of issued penalty points for the year 2015.
 
 The data is returned in JSON and for the year will be displayed with the following properties:
+
 **Year of the Data**
+
 **Category of No. of points (1-12)**
+
 **Total points for a given Category**
 
 In code example:
