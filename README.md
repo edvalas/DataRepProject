@@ -24,7 +24,7 @@ There are 13 columns across 1 - 12 being (**penalty points** 1 to 12) and total 
 There are a few variations of the get query and how much detail or specification you want in the data returned from the query.
 
 For Example
-url: *http://rsa.ie/documents/penaltypointsstats/(Year)* , you can replace (Year) with a value for the year to show data for that given year.
+url: **http://rsa.ie/documents/penaltypointsstats/(Year)** , you can replace (Year) with a value for the year to show data for that given year.
 
 
 
