@@ -30,11 +30,9 @@ The Url: https://rsa.ie/documents/penaltypointsstats/2015 will return the total 
 
 The data is returned in JSON and for the year will be displayed with the following properties:
 
-**Year of the Data**
-
-**Category of No. of points (1-12)**
-
-**Total points for a given Category**
+**- Year of the Data**
+**- Category of No. of points (1-12)**
+**- Total points for a given Category**
 
 In code example:
 
