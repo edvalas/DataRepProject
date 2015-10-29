@@ -24,13 +24,17 @@ There are 13 columns across 1 - 12 being (**penalty points** 1 to 12) and total 
 There are a few variations of the get query and how much detail or specification you want in the data returned from the query.
 
 For Example
-url: **http://rsa.ie/documents/penaltypointsstats/(Year)** , you can replace (Year) with a value for the year to show data for that given year.
+url: *https://rsa.ie/documents/penaltypointsstats/(Year)* , you can replace (Year) with a value for the year to show data for that given year.
 
+The Url: https://rsa.ie/documents/penaltypointsstats/2015 will return the total data of issued penalty points for the year 2015.
 
+The data is returned in JSON and for the year will be displayed with the following properties:
+**Year of the Data**
+**Category of No. of points (1-12)**
+**Total points for a given Category**
 
-Here is code:
-```js
-var i;
-for(i = 0; i < 10; i++){
-}
+In code example:
+
+```json
+[{"Year": 2015, "Category(1-12)": 3, "Total points": 100, ....}]
 ```
