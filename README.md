@@ -66,3 +66,26 @@ In code example:
 ```json
 [{"Year": 2015, "Month": January, "Category(1-12)": 3, "Total points": 100, ....}]
 ```
+
+###List of total Penalty points issued by County.
+
+For Example
+url: *https://rsa.ie/documents/penaltypointsstats/(Year)/County* , you can replace (Year) and (County) with a value for the year and county of Ireland to show data for that given year and county.
+
+The Url: https://rsa.ie/documents/penaltypointsstats/2015/Galway will return the total data of issued penalty points for the county of Galway in 2015.
+
+The data is returned in JSON and for the year will be displayed with the following properties:
+
+**- Year of the Data**
+
+**- County in Ireland for the data**
+
+**- Category of No. of points (1-12)**
+
+**- Total points for a given Category**
+
+In code example:
+
+```json
+[{"Year": 2015, "County": Galway, "Category(1-12)": 3, "Total points": 100, ....}]
+```
