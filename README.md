@@ -81,7 +81,7 @@ The data is returned in JSON and for the year will be displayed with the followi
 In code example:
 
 ```json
-[{"id": 15/01,
+[{"id": 15-01,
 "Year": 2015,
 "Month": January,
 "Category(1-12)": 3, 
