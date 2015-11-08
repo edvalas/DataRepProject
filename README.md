@@ -41,7 +41,10 @@ The data is returned in JSON and for the year will be displayed with the followi
 In code example:
 
 ```json
-[{"Year": 2015, "Category(1-12)": 3, "Total points": 100, ....}]
+[{"Year": 2015, 
+"Category(1-12)": 3, 
+"Total points": 100, 
+....}]
 ```
 
 ###List of total Penalty points issued by Month.
