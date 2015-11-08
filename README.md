@@ -116,7 +116,7 @@ The data is returned in JSON and for the year will be displayed with the followi
 In code example:
 
 ```json
-[{"id": 15.Galway,
+[{"id": 15-Galway,
 "Year": 2015, 
 "County": Galway,
 "Category(1-12)": 3, 
