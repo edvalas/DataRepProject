@@ -32,19 +32,27 @@ The Url: https://rsa.ie/documents/penaltypointsstats/2015 will return the total 
 
 The data is returned in JSON and for the year will be displayed with the following properties:
 
+**- ID of the table - year(2015 - 15)**
+
 **- Year of the Data**
 
 **- Category of No. of points (1-12)**
 
 **- Total points for a given Category**
 
+**- Type of request**
+
+**- URL of the request**
+
 In code example:
 
 ```json
-[{"Year": 2015, 
+[{"id": 15,
+"Year": 2015, 
 "Category(1-12)": 3, 
-"Total points": 100, 
-....}]
+"Total points": 7865, 
+"type" : "Get",
+"url" : "https://rsa.ie/documents/penaltypointsstats/2015"}]
 ```
 
 ###List of total Penalty points issued by Month.
@@ -56,6 +64,8 @@ The Url: https://rsa.ie/documents/penaltypointsstats/2015/January will return th
 
 The data is returned in JSON and for the year will be displayed with the following properties:
 
+**- ID of the table - year/month(2015 January - 15/01)**
+
 **- Year of the Data**
 
 **- Month of the Year for the data**
@@ -64,10 +74,20 @@ The data is returned in JSON and for the year will be displayed with the followi
 
 **- Total points for a given Category**
 
+**- Type of request**
+
+**- URL of the request**
+
 In code example:
 
 ```json
-[{"Year": 2015, "Month": January, "Category(1-12)": 3, "Total points": 100, ....}]
+[{"id": 15/01,
+"Year": 2015,
+"Month": January,
+"Category(1-12)": 3, 
+"Total points": 2345, 
+"type" : "Get",
+"url" : "https://rsa.ie/documents/penaltypointsstats/2015/January"}]
 ```
 
 ###List of total Penalty points issued by County.
@@ -79,6 +99,8 @@ The Url: https://rsa.ie/documents/penaltypointsstats/2015/Galway will return the
 
 The data is returned in JSON and for the year will be displayed with the following properties:
 
+**- ID of the table - year/county(2015 Galway - 15/Galway)**
+
 **- Year of the Data**
 
 **- County in Ireland for the data**
@@ -87,8 +109,18 @@ The data is returned in JSON and for the year will be displayed with the followi
 
 **- Total points for a given Category**
 
+**- Type of request**
+
+**- URL of the request**
+
 In code example:
 
 ```json
-[{"Year": 2015, "County": Galway, "Category(1-12)": 3, "Total points": 100, ....}]
+[{"id": 15/Galway,
+"Year": 2015, 
+"County": Galway,
+"Category(1-12)": 3, 
+"Total points": 4123, 
+"type" : "Get",
+"url" : "https://rsa.ie/documents/penaltypointsstats/2015/Galway"}]
 ```
