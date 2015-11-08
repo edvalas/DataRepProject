@@ -64,7 +64,7 @@ The Url: https://rsa.ie/documents/penaltypointsstats/2015/January will return th
 
 The data is returned in JSON and for the year will be displayed with the following properties:
 
-**- ID of the table - year/month(2015 January - 15/01)**
+**- ID of the table - year/month(2015 January - 15-01)**
 
 **- Year of the Data**
 
@@ -83,7 +83,7 @@ In code example:
 ```json
 [{"id": 15-01,
 "Year": 2015,
-"Month": January,
+"Month": x,
 "Category(1-12)": 3, 
 "Total points": 2345, 
 "type" : "Get",
@@ -99,7 +99,7 @@ The Url: https://rsa.ie/documents/penaltypointsstats/2015/Galway will return the
 
 The data is returned in JSON and for the year will be displayed with the following properties:
 
-**- ID of the table - year/county(2015 Galway - 15/Galway)**
+**- ID of the table - year/county(2015 Galway - 15-Galway)**
 
 **- Year of the Data**
 
