@@ -19,7 +19,7 @@ There are 13 columns across 1 - 12 being (**penalty points** 1 to 12) and total 
 
 # Queries
 
-## Get
+## Get - method will return a table, row, column or cell from the dataset
 
 There are a few variations of the get query and how much detail or specification you want in the data returned from the query.
 
