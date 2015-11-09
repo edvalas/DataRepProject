@@ -165,8 +165,8 @@ For Example the request in http:
 
 ```
 DELETE /penaltypointsstats/(Year)/(Month)/(County)/penaltypoints?id=(Category) HTTP/1.1
-Accept: http/json
-Authorization: Basic
+Accept-Language: en-us
+User-Agent: Chrome/46.0.2490 (compatible; Windows NT)
 Host: localhost
 Connection: keep-alive
 ```
@@ -181,8 +181,12 @@ A responce example in hhtp:
 HTTP/1.1 200 OK
 Cache-Control: no-cache
 Date: 13:16:53 Monday November 9 2015
-Connection: Keep-Alive
-Content-Type: json;charset=UTF-8
-AffectedCells: 1
+Connection: Closed
+Content-Type: text/html/json
 uri: "http://localhost/penaltypointsstats/2015/January/Galway/penaltypoints?id=3"
+<html>
+<body>
+<h1>Cell Value deleted.</h1>
+</body>
+</html>
 ```
