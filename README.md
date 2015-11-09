@@ -156,3 +156,29 @@ In code example:
 "type" : "Get",
 "url" : "https://rsa.ie/documents/penaltypointsstats/2015/penaltypoints?id=3"}]
 ```
+
+## Delete - method will delele a value in a specific cell in the dataset
+
+###Delete the value of cell 2015 - January - Galway - Category 3.
+
+For Example the request
+
+DELETE /penaltypointsstats/(Year)/(Month)/(County)/penaltypoints?id=(Category) HTTP/1.1
+Accept: json
+Authorization: Basic
+Host: localhost
+Connection: keep-alive
+
+You can replace (Year), (Month), (County) and (Category) with a value for the year, month, county and category(1-12) of penalty points to delete the value of that specific cell.
+
+The Uri: /penaltypointsstats/2015/January/Galway/penaltypoints?id=3 will delete the value of the cell for the category of 3 points in Galway of January 2015.
+
+A responce example
+
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Date: Monday November 9 13:16:53 2015
+Connection: Keep-Alive
+Content-Type: json;charset=UTF-8
+AffectedRows: 1
+uri: "http://localhost/penaltypointsstats/2015/January/Galway/penaltypoints?id=3"
