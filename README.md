@@ -93,7 +93,7 @@ In code example:
 ###List of total Penalty points issued by County.
 
 For Example
-url: *https://rsa.ie/documents/penaltypointsstats/(Year)/County* , you can replace (Year) and (County) with a value for the year and county of Ireland to show data for that given year and county.
+url: *https://rsa.ie/documents/penaltypointsstats/(Year)/(County)* , you can replace (Year) and (County) with a value for the year and county of Ireland to show data for that given year and county.
 
 The Url: https://rsa.ie/documents/penaltypointsstats/2015/Galway will return the total data of issued penalty points for the county of Galway in 2015.
 
@@ -123,4 +123,36 @@ In code example:
 "Total points": 4123, 
 "type" : "Get",
 "url" : "https://rsa.ie/documents/penaltypointsstats/2015/Galway"}]
+```
+
+###List of total Penalty points issued by Category.
+
+For Example
+url: *https://rsa.ie/documents/penaltypointsstats/(Year)penaltypoints?id=(Category)* , you can replace (Year) and (Category) with a value for the year and category(1-12) of penalty points to show data for that given year and category of points.
+
+The Url: https://rsa.ie/documents/penaltypointsstats/2015/penaltypoints?id=3 will return the total data of issued penalty points for the category of 3 points in 2015.
+
+The data is returned in JSON and for the year will be displayed with the following properties:
+
+**- ID of the table - year/category(1-12) (2015 3 - 15-3)**
+
+**- Year of the Data**
+
+**- Category of No. of points (1-12)**
+
+**- Total points for a given Category**
+
+**- Type of request**
+
+**- URL of the request**
+
+In code example:
+
+```json
+[{"id": "15-3",
+"Year": 2015, 
+"Category(1-12)": 3, 
+"Total points": 645, 
+"type" : "Get",
+"url" : "https://rsa.ie/documents/penaltypointsstats/2015/penaltypoints?id=3"}]
 ```
