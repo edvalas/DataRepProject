@@ -175,7 +175,7 @@ You can replace (Year), (Month), (County) and (Category) with a value for the ye
 
 The Uri: /penaltypointsstats/2015/January/Galway/penaltypoints?id=3 will delete the value of the cell for the category of 3 points in Galway of January 2015.
 
-A responce example in hhtp:
+A responce example in http:
 
 ```
 HTTP/1.1 200 OK
