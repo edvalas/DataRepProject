@@ -163,7 +163,7 @@ In code example:
 
 For Example the request in http:
 
-```html5
+```html
 DELETE /penaltypointsstats/(Year)/(Month)/(County)/penaltypoints?id=(Category) HTTP/1.1
 User-Agent: Chrome/46.0.2490 (compatible; Windows NT)
 Host: localhost
@@ -178,7 +178,7 @@ The Uri: /penaltypointsstats/2015/January/Galway/penaltypoints?id=3 will delete 
 
 A responce example in http:
 
-```html5
+```html
 HTTP/1.1 200 OK
 Date: 13:16:53 Monday November 9 2015
 Server: Some Server
@@ -199,7 +199,7 @@ uri: "http://localhost/penaltypointsstats/2015/January/Galway/penaltypoints?id=3
 
 For Example the request in http:
 
-```html5
+```html
 POST /penaltypointsstats/(Year)/(Month)/(County)/penaltypoints?id=(Category) HTTP/1.1
 User-Agent: Chrome/46.0.2490 (compatible; Windows NT)
 Host: localhost
@@ -220,7 +220,7 @@ The Uri: /penaltypointsstats/2015/January/Galway/penaltypoints?id=3 will post th
 
 A responce example in http:
 
-```html5
+```html
 HTTP/1.1 200 OK
 Date: 14:27:53 Monday November 9 2015
 Server: Some Server
