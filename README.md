@@ -179,11 +179,12 @@ A responce example in hhtp:
 
 ```
 HTTP/1.1 200 OK
-Cache-Control: no-cache
 Date: 13:16:53 Monday November 9 2015
+Server: Some Server
 Connection: Closed
-Content-Type: text/html/json
+Content-Type: text/html
 uri: "http://localhost/penaltypointsstats/2015/January/Galway/penaltypoints?id=3"
+
 <html>
 <body>
 <h1>Cell Value deleted.</h1>
