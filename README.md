@@ -161,11 +161,11 @@ In code example:
 
 ###Delete the value of cell 2015 - January - Galway - Category 3.
 
-For Example the request
+For Example the request in http:
 
 ```
 DELETE /penaltypointsstats/(Year)/(Month)/(County)/penaltypoints?id=(Category) HTTP/1.1
-Accept: json
+Accept: http/json
 Authorization: Basic
 Host: localhost
 Connection: keep-alive
@@ -180,9 +180,9 @@ A responce example in hhtp:
 ```
 HTTP/1.1 200 OK
 Cache-Control: no-cache
-Date: Monday November 9 13:16:53 2015
+Date: 13:16:53 Monday November 9 2015
 Connection: Keep-Alive
 Content-Type: json;charset=UTF-8
-AffectedRows: 1
+AffectedCells: 1
 uri: "http://localhost/penaltypointsstats/2015/January/Galway/penaltypoints?id=3"
 ```
