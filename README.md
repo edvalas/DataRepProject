@@ -163,11 +163,12 @@ In code example:
 
 For Example the request in http:
 
-```
+```html5
 DELETE /penaltypointsstats/(Year)/(Month)/(County)/penaltypoints?id=(Category) HTTP/1.1
-Accept-Language: en-us
 User-Agent: Chrome/46.0.2490 (compatible; Windows NT)
 Host: localhost
+Content-Type: text/html; charset=utf-8
+Accept-Language: en-us
 Connection: keep-alive
 ```
 
@@ -177,7 +178,7 @@ The Uri: /penaltypointsstats/2015/January/Galway/penaltypoints?id=3 will delete 
 
 A responce example in http:
 
-```
+```html5
 HTTP/1.1 200 OK
 Date: 13:16:53 Monday November 9 2015
 Server: Some Server
@@ -192,6 +193,45 @@ uri: "http://localhost/penaltypointsstats/2015/January/Galway/penaltypoints?id=3
 </html>
 ```
 
-## Delete - method will delele a value in a specific cell in the dataset
+## Post - method will post a value to be placed/updated in a specific cell in the dataset
 
-###Delete the value of cell 2015 - January - Galway - Category 3.
+###Post the value for cell 2015 - January - Galway - Category 3.
+
+For Example the request in http:
+
+```html5
+POST /penaltypointsstats/(Year)/(Month)/(County)/penaltypoints?id=(Category) HTTP/1.1
+User-Agent: Chrome/46.0.2490 (compatible; Windows NT)
+Host: localhost
+Content-Type: text/html; charset=utf-8
+Accept-Language: en-us
+Connection: Keep-Alive
+
+<html>
+<body>
+<p>234</p>
+</body>
+</html>
+```
+
+You can replace (Year), (Month), (County) and (Category) with a value for the year, month, county and category(1-12) of penalty points to post to update the value of that specific cell.
+
+The Uri: /penaltypointsstats/2015/January/Galway/penaltypoints?id=3 will post the value of the cell for the category of 3 points in Galway of January 2015.
+
+A responce example in http:
+
+```html5
+HTTP/1.1 200 OK
+Date: 14:27:53 Monday November 9 2015
+Server: Some Server
+Last-Modified: 13:56:53 Monday November 9 2015 GMT
+ETag: "ghfgnHR5435Y"
+Content-Type: text/html
+Connection: Closed
+
+<html>
+<body>
+<h1>Request Processed Successfully</h1>
+</body>
+</html>
+```
