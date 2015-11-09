@@ -191,3 +191,7 @@ uri: "http://localhost/penaltypointsstats/2015/January/Galway/penaltypoints?id=3
 </body>
 </html>
 ```
+
+## Delete - method will delele a value in a specific cell in the dataset
+
+###Delete the value of cell 2015 - January - Galway - Category 3.
