@@ -235,3 +235,6 @@ Connection: Closed
 </body>
 </html>
 ```
+
+##Summary
+In doing this documentation API for my project , I have learned how to use github markdown for editing text and http request and responce methods like Get, Post and others. I hope this API is easy to read, understand and use. 
