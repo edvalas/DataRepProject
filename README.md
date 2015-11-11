@@ -4,7 +4,7 @@ Data Representation and Querying Project 2015
 ### Ed Lasauskas
 
 ##Overview
-This is a project to design and document an API for a dataset. The dataset was taken from the road safety authority website - [RSA.ie](http://www.rsa.ie/)
+This is a project to design and document an API for a dataset, not to implement it. I found the dataset on [data.gov.ie](https://data.gov.ie/data), but dataset was taken from the road safety authority website - [RSA.ie](http://www.rsa.ie/). This dataset is designed to be easy to use and access.
 
 ##The dataset
 The dataset is in PDF format and is available 
