@@ -181,7 +181,7 @@ A responce example in http:
 ```html
 HTTP/1.1 200 OK
 Date: 13:16:53 Monday November 9 2015
-Server: Some Server
+Server: Apache Server
 Connection: Closed
 Content-Type: text/html
 uri: "http://localhost/penaltypointsstats/2015/January/Galway/penaltypoints?id=3"
@@ -223,7 +223,7 @@ A responce example in http:
 ```html
 HTTP/1.1 200 OK
 Date: 14:27:53 Monday November 9 2015
-Server: Some Server
+Server: Apache Server
 Last-Modified: 13:56:53 Monday November 9 2015 GMT
 ETag: "ghfgnHR5435Y"
 Content-Type: text/html
@@ -237,4 +237,4 @@ Connection: Closed
 ```
 
 ##Summary
-In doing this documentation for an API for my project , I have learned how to use github markdown for editing text files and the use of http request and responce methods like Get, Post and others. I hope this API is easy to read, understand, easy to extend if needed and is useful as it is efficient. 
+In doing this documentation for an API for my project , I have learned how to use github markdown for editing text files and the use of http request and responce methods like Get, Post and others. I referred to [tutorialspoint.com](http://www.tutorialspoint.com/http/http_methods.htm) for the syntax and layout of the http methods.  I hope this API is easy to read, understand, easy to extend if needed and is useful as it is efficient. 
