@@ -26,13 +26,13 @@ There are a few variations of the get query and how much detail or specification
 ###List of total Penalty points issued by Year.
 
 For Example
-url: *https://rsa.ie/documents/penaltypointsstats/(Year)* , you can replace (Year) with a value for the year to show data for that given year.
+url: *https://rsa.ie/documents/penaltypointsstats/(Year)* , you can replace (Year) with a value for the year to show data table for that given year.
 
-The Url: https://rsa.ie/documents/penaltypointsstats/2015 will return the total data of issued penalty points for the year 2015.
+The Url: https://rsa.ie/documents/penaltypointsstats/2015 will return the data table of issued penalty points for the year 2015.
 
-The data is returned in JSON and for the year will be displayed with the following properties:
+The data is returned in JSON and for the given year, it will be displayed with the following properties:
 
-**- ID of the table - year(2015 - 15)**
+**- ID of the table - year(2015 - id = 15)**
 
 **- Year of the Data**
 
@@ -58,13 +58,13 @@ In code example:
 ###List of total Penalty points issued by Month.
 
 For Example
-url: *https://rsa.ie/documents/penaltypointsstats/(Year)/(Month)* , you can replace (Year) and (Month) with a value for the year and month to show data for that given year and month.
+url: *https://rsa.ie/documents/penaltypointsstats/(Year)/(Month)* , you can replace (Year) and (Month) with a value for the year and month to show data table for that given year and month.
 
-The Url: https://rsa.ie/documents/penaltypointsstats/2015/January will return the total data of issued penalty points for the month of January of  2015.
+The Url: https://rsa.ie/documents/penaltypointsstats/2015/January will return the data table of issued penalty points for the month of January of 2015.
 
-The data is returned in JSON and for the year will be displayed with the following properties:
+The data is returned in JSON and for the given year & month, it will be displayed with the following properties:
 
-**- ID of the table - year/month(2015 January - 15-01)**
+**- ID of the table - year/month(2015 January - id = 15-01)**
 
 **- Year of the Data**
 
@@ -93,13 +93,13 @@ In code example:
 ###List of total Penalty points issued by County.
 
 For Example
-url: *https://rsa.ie/documents/penaltypointsstats/(Year)/(County)* , you can replace (Year) and (County) with a value for the year and county of Ireland to show data for that given year and county.
+url: *https://rsa.ie/documents/penaltypointsstats/(Year)/(County)* , you can replace (Year) and (County) with a value for the year and county of Ireland to show the data table for that given year and county.
 
-The Url: https://rsa.ie/documents/penaltypointsstats/2015/Galway will return the total data of issued penalty points for the county of Galway in 2015.
+The Url: https://rsa.ie/documents/penaltypointsstats/2015/Galway will return the data table of issued penalty points for the county of Galway in 2015.
 
-The data is returned in JSON and for the year will be displayed with the following properties:
+The data is returned in JSON and for the given year & county, it will be displayed with the following properties:
 
-**- ID of the table - year/county(2015 Galway - 15-Galway)**
+**- ID of the table - year/county(2015 Galway - id = 15-Galway)**
 
 **- Year of the Data**
 
@@ -130,11 +130,11 @@ In code example:
 For Example
 url: *https://rsa.ie/documents/penaltypointsstats/(Year)penaltypoints?id=(Category)* , you can replace (Year) and (Category) with a value for the year and category(1-12) of penalty points to show data for that given year and category of points.
 
-The Url: https://rsa.ie/documents/penaltypointsstats/2015/penaltypoints?id=3 will return the total data of issued penalty points for the category of 3 points in 2015.
+The Url: https://rsa.ie/documents/penaltypointsstats/2015/penaltypoints?id=3 will return the data table of issued penalty points for the category of 3 points in 2015.
 
-The data is returned in JSON and for the year will be displayed with the following properties:
+The data is returned in JSON and for the given year & category of points(1-12), it will be displayed with the following properties:
 
-**- ID of the table - year/category(1-12) (2015 3 - 15-3)**
+**- ID of the table - year/category(1-12) (2015 3 - id = 15_3, underscore is used to not be mixed up with month id denoted by - )**
 
 **- Year of the Data**
 
@@ -149,7 +149,7 @@ The data is returned in JSON and for the year will be displayed with the followi
 In code example:
 
 ```json
-[{"id": "15-3",
+[{"id": "15_3",
 "Year": 2015, 
 "Category(1-12)": 3, 
 "Total points": 645, 
