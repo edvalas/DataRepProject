@@ -4,7 +4,7 @@ Data Representation and Querying Project 2015
 ### Ed Lasauskas
 
 ##Overview
-This is a project to design and document an API for a dataset, not to implement it. I found the dataset on [data.gov.ie](https://data.gov.ie/data), but dataset was taken from the road safety authority website - [RSA.ie](http://www.rsa.ie/). This dataset is designed to be easy to use and access.
+This is a project to design and document an API for a dataset, not to implement it. I found the dataset on [data.gov.ie](https://data.gov.ie/data), but dataset was taken from the road safety authority website - [RSA.ie](http://www.rsa.ie/). This dataset is designed to be easy to use and access and is to be used by the appropriate audience.
 
 ##The dataset
 The dataset is in PDF format and is available 
@@ -237,4 +237,4 @@ Connection: Closed
 ```
 
 ##Summary
-In doing this documentation for an API for my project , I have learned how to use github markdown for editing text files and the use of http request and responce methods like Get, Post and others. I hope this API is easy to read, understand and is useful as it is efficient. 
+In doing this documentation for an API for my project , I have learned how to use github markdown for editing text files and the use of http request and responce methods like Get, Post and others. I hope this API is easy to read, understand, easy to extend if needed and is useful as it is efficient. 
