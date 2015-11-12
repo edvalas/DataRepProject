@@ -237,4 +237,4 @@ Connection: Closed
 ```
 
 ##Summary
-In doing this documentation API for my project , I have learned how to use github markdown for editing text and http request and responce methods like Get, Post and others. I hope this API is easy to read, understand and use. 
+In doing this documentation for an API for my project , I have learned how to use github markdown for editing text files and the use of http request and responce methods like Get, Post and others. I hope this API is easy to read, understand and is useful as it is efficient. 
